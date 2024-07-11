@@ -1,33 +1,3 @@
-// import { Injectable } from '@angular/core';
-
-// interface WorkoutEntry {
-//   userName: string;
-//   workoutType: string;
-//   workoutMinutes: number;
-// }
-
-// @Injectable({
-//   providedIn: 'root'
-// })
-// export class WorkoutService {
-//   private workoutEntries: WorkoutEntry[] = [];
-
-//   constructor() { }
-
-//   addWorkoutEntry(entry: WorkoutEntry) {
-//     this.workoutEntries.push(entry);
-//   }
-
-//   getWorkoutEntries(): WorkoutEntry[] {
-//     return this.workoutEntries;
-//   }
-
-//   clearWorkoutEntries() {
-//     this.workoutEntries = [];
-//   }
-// }
-
-
 import { Injectable } from '@angular/core';
 
 export interface WorkoutEntry {
